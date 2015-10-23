@@ -1,0 +1,44 @@
+{
+  "name": "passport-dev",
+  "version": "1.0.0",
+  "description": "Local username and password authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "dev",
+    "development"
+  ],
+  "author": {
+    "name": "Marcos Nils",
+    "email": "marcosnils@gmail.com",
+    "url": "http://www.github.com/marcosnils"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcosnils/passport-dev.git"
+  },
+  "bugs": {
+    "url": "http://github.com/marcosnils/passport-dev/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
