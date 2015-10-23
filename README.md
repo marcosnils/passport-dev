@@ -25,6 +25,7 @@ $ npm install passport-dev
 
 The dev authentication strategy authenticates using a mocked data
 object which simulates the response obtained by the production provider.
+
 ```js
 if (process.env.NODE_ENV == 'production' ) {
     passport.use(new TwitterStrategy({
