@@ -1,7 +1,7 @@
 {
   "name": "passport-dev",
-  "version": "1.0.0",
-  "description": "Local username and password authentication strategy for Passport.",
+  "version": "1.0.1",
+  "description": "Development strategy for passportjs",
   "keywords": [
     "passport",
     "dev",

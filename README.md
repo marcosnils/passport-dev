@@ -1,7 +1,7 @@
 # passport-dev
 
 [![Build](https://travis-ci.org/marcosnils/passport-dev.png)](https://travis-ci.org/marcosnils/passport-dev)
-[![Coverage](https://coveralls.io/repos/marcosnils/passport-dev/badge.png)](https://coveralls.io/r/marcosnils/passport-dev)
+[![Coverage Status](https://coveralls.io/repos/marcosnils/passport-dev/badge.svg?branch=master&service=github)](https://coveralls.io/github/marcosnils/passport-dev?branch=master)
 
 
 [Passport](http://passportjs.org/) strategy for development environment.
