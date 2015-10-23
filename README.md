@@ -7,7 +7,7 @@
 [Passport](http://passportjs.org/) strategy for development environment.
 
 This module lets you replace your passport strategies in development
-for mocked responses witout having to reconfigure your application routes.
+for mocked responses without having to reconfigure your application routes.
 By plugging into Passport, local authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
