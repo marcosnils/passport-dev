@@ -40,10 +40,11 @@ if (process.env.NODE_ENV == 'production' ) {
       }
     ));
 } else {
+    var DevStrategy = require('passport-dev');
     passport.use(new DevStrategy('twitter', {
         user: '@marcosnils',
         email: 'marcos@mydomain.com'
-    });
+    }));
 }
 ```
 
