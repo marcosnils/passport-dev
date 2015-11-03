@@ -43,7 +43,7 @@ if (process.env.NODE_ENV == 'production' ) {
     passport.use(new DevStrategy('twitter', {
         user: '@marcosnils',
         email: 'marcos@mydomain.com'
-    });
+    }));
 }
 ```
 
